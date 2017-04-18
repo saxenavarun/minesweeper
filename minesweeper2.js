@@ -8,7 +8,7 @@ var minesweeper = (function() {
   cell_state = {
     covered: 0,
     uncovered: 1,
-    flagged: 2
+     flagged: 2
   };
 
   var isValidPosition = function(coords) {
